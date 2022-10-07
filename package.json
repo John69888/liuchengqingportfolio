@@ -1,37 +1,26 @@
 {
-  "name": "Liu Chengqing Portfolio",
-  "version": "0.0.5",
-  "private": true,
-  "scripts": {
-    "start": "node ./server.js"
-  },
-  "engines": {
-    "node": "^12.18.3",
-    "npm": "^6.0.0"
-  },
+  "name": "week32",
+  "version": "1.0.8",
+  "description": "liu portfolio",
+  "main": "index.js",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0",
     "bootstrap": "^4.5.2",
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
     "jquery": "^3.5.1",
-    "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   },
-  "description": "Liu Chengqing portfolio",
-  "main": "index.js",
   "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsiliopoulos/COMP229-F2020-Week3.git"
+    "url": "git+https://github.com/John69888/liuchengqingportfolio.git"
   },
-  "author": "Liu Chengqing",
+  "author": "liu chengqing",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tsiliopoulos/COMP229-F2020-Week3/issues"
+    "url": "https://github.com/John69888/liuchengqingportfolio/issues"
   },
-  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Week3#readme"
+  "homepage": "https://github.com/John69888/liuchengqingportfolio#readme"
 }
