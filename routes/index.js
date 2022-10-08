@@ -6,9 +6,9 @@ var router = express.Router();
 // For index, about, projects, services pages use the same template, but pass differernt title to generate 4 pages 
 // But for contact page, I use different template. 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home'});
-});
+//router.get('/', function(req, res, next) {
+//  res.render('index', { title: 'Home'});
+//});
 
 /* GET home page. */
 router.get('/home', function(req, res, next) {
